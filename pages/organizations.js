@@ -38,7 +38,7 @@ export default {
                         { label: "Yes", value: 1 }
                     ]},
                     { name: "description", label: "Description", type: "textArea" },
-                    { name: "address", label: "Description", type: "textArea" },
+                    { name: "address", label: "Address", type: "textArea" },
                     { name: "status", label: "Status", type: "select", defaultValue: 'active', options: [
                         { label: "Active", value: "active" },
                         { label: "Inactive", value: "inactive" },
@@ -126,7 +126,7 @@ export default {
                             { label: "Yes", value: 1 }
                         ]},
                         { name: "description", label: "Description", type: "textArea" },
-                        { name: "address", label: "Description", type: "textArea" },
+                        { name: "address", label: "Address", type: "textArea" },
                         { name: "status", label: "Status", type: "select", options: [
                             { label: "Active", value: "active" },
                             { label: "Inactive", value: "inactive" },

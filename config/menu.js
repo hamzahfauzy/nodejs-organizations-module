@@ -3,25 +3,25 @@ export default {
         label: "Organizations",
         icon: "layers",
         permissions: ["organization_positions.list",'organizations.list','organization_people.list'],
-        activeState:['/organization-positions','/organizations','/organization-people'],
+        activeState:['/organizations/positions','/organizations/lists','/organizations/member'],
         children: {
             list: {
                 label: 'Lists',
-                route: '/organizations',
+                route: '/organizations/lists',
                 permission: "organizations.list",
-                activeState:['/organizations'],
+                activeState:['/organizations/lists'],
             },
             positions: {
                 label: 'Positions',
-                route: '/organization-positions',
+                route: '/organizations/positions',
                 permission: "organization_positions.list",
-                activeState:['/organization-positions'],
+                activeState:['/organizations/positions'],
             },
             member: {
                 label: 'Member',
-                route: '/organization-people',
+                route: '/organizations/member',
                 permission: "organization_people.list",
-                activeState:['/organization-people'],
+                activeState:['/organizations/member'],
             },
         }
     },

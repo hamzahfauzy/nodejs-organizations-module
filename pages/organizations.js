@@ -1,7 +1,7 @@
 const appUrl = process.env.APP_URL
 export default {
     title: "Organizations",
-    path: "organizations",
+    path: "organizations/lists",
     permission: "organizations.list",
 
     content: {

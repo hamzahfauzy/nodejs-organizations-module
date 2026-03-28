@@ -1,7 +1,7 @@
 const appUrl = process.env.APP_URL
 export default {
     title: "Member",
-    path: 'organization-people',
+    path: 'organizations/member',
     permission: "organization_people.list",
     content: {
         type: "crud",

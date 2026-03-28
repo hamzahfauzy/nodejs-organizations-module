@@ -1,0 +1,4 @@
+ALTER TABLE organizations ADD COLUMN phone VARCHAR(100) NULL;
+ALTER TABLE organizations ADD COLUMN email VARCHAR(100) NULL;
+ALTER TABLE organizations ADD COLUMN address TEXT NULL;
+ALTER TABLE organizations ADD COLUMN is_workspace INT DEFAULT 0;

@@ -52,12 +52,12 @@ export default {
             actions: [
                 {
                     label: 'Positions', icon: 'eye', type: 'link', 
-                    to: {path: '/page/organization-positions', query: {filters: {organization_id: 'id'}}}, 
+                    to: {path: '/page/organizations/positions', query: {filters: {organization_id: 'id'}}}, 
                     permission: 'organization_positions.list'
                 },
                 {
                     label: 'Member', icon: 'eye', type: 'link', 
-                    to: {path: '/page/organization-people', query: {filters: {organization_id: 'id'}}}, 
+                    to: {path: '/page/organizations/member', query: {filters: {organization_id: 'id'}}}, 
                     permission: 'organization_people.list'
                 },
                 { 
